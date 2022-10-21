@@ -80,7 +80,7 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
             if(ballposY < 0){
                 ballYDir = -ballYDir;
             }
-            if(ballposX < 670){
+            if(ballposX > 670){
                 ballXdir = -ballXdir;
             }
         }
